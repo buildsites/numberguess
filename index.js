@@ -6,14 +6,14 @@ console.log(n);
 var guess = prompt (  name +" Welcome"+" to stage one guess the number in my Console to go to stage two")
 
 if (guess == n){
-    console.log("correct");
+    alert("correct");
     var p = Math.random();
      p = p * 4;
 p = Math.floor(p) + 1;
 console.log(p);
 var guess2 = prompt (  name +" Welcome"+" to stage to Guess the Number in my console to finish game");
  if (guess2 == p){
-     console.log ("Congrats " + name + "You finished the game")
- } else {console.log("I think you need a reboost, Try again")} 
+    alert("Congrats " + name + "You finished the game")
+ } else {alert("think you need a reboost, Try again")} 
 
-} else {console.log("I thought You were a genius lol, try again")}
+} else {alert("I thought You were a genius lol, try again")}
